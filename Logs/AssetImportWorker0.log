@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51904
+64841
 Successfully changed project path to: /Users/shoin/Unity/IkinokoBattle
 /Users/shoin/Unity/IkinokoBattle
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/shoin/Unity/IkinokoBattle
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704658000704] Host "[IP] 192.168.2.140 [Port] 0 [Flags] 2 [Guid] 1725681409 [EditorId] 1725681409 [Version] 1048832 [Id] OSXEditor(0,nishiharanoMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704658000704] Host "[IP] 192.168.2.140 [Port] 0 [Flags] 2 [Guid] 3615660980 [EditorId] 3615660980 [Version] 1048832 [Id] OSXEditor(0,nishiharanoMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704658000704] Host "[IP] 192.168.2.140 [Port] 0 [Flags] 2 [Guid] 1725681409 [EditorId] 1725681409 [Version] 1048832 [Id] OSXEditor(0,nishiharanoMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704658000704] Host "[IP] 192.168.2.140 [Port] 0 [Flags] 2 [Guid] 3615660980 [EditorId] 3615660980 [Version] 1048832 [Id] OSXEditor(0,nishiharanoMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 8.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -77,48 +77,48 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56471
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56358
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003692 seconds.
-- Loaded All Assemblies, in  0.615 seconds
+Registered in 0.005031 seconds.
+- Loaded All Assemblies, in  0.630 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.460 seconds
-Domain Reload Profiling: 1076ms
-	BeginReloadAssembly (158ms)
+Domain Reload Profiling: 1090ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (273ms)
-		LoadAssemblies (158ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (270ms)
-			TypeCache.Refresh (267ms)
-				TypeCache.ScanAssembly (244ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (270ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
 	FinalizeReload (461ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (353ms)
+		SetupLoadedEditorAssemblies (349ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,8 +126,8 @@ Domain Reload Profiling: 1076ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.083 seconds
-Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.059 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -136,48 +136,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.145 seconds
-Domain Reload Profiling: 2229ms
-	BeginReloadAssembly (228ms)
+- Finished resetting the current domain, in  1.065 seconds
+Domain Reload Profiling: 2125ms
+	BeginReloadAssembly (219ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (698ms)
-		LoadAssemblies (472ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (689ms)
+		LoadAssemblies (449ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (343ms)
-			TypeCache.Refresh (303ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (304ms)
 				TypeCache.ScanAssembly (278ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1146ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1065ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (748ms)
+		SetupLoadedEditorAssemblies (768ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (14ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (560ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (630ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (382.7 KB). Loaded Objects now: 3683.
-Memory consumption went from 181.9 MB to 181.5 MB.
-Total: 7.835604 ms (FindLiveObjects: 0.553249 ms CreateObjectMapping: 0.436099 ms MarkObjects: 6.577465 ms  DeleteObjects: 0.267444 ms)
+Unloading 3436 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (453.7 KB). Loaded Objects now: 3920.
+Memory consumption went from 192.9 MB to 192.5 MB.
+Total: 5.290760 ms (FindLiveObjects: 0.333766 ms CreateObjectMapping: 0.333027 ms MarkObjects: 4.357015 ms  DeleteObjects: 0.265583 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -194,1129 +194,1106 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 245800.726706 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes/Example 2.unity
-  artifactKey: Guid(f01635ed85ec480f9414f51058954315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes/Example 2.unity using Guid(f01635ed85ec480f9414f51058954315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d4cb962781d97783c88f4d52afdc084') in 0.112338 seconds
+  Time since last request: 308968.495606 seconds.
+  path: Assets/IkinokoBattle/Prefabs
+  artifactKey: Guid(2d1eef9cd28c641a0a6abb1ff24b076a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IkinokoBattle/Prefabs using Guid(2d1eef9cd28c641a0a6abb1ff24b076a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00cdd99bcee0652c4e358a55d3e7d1b') in 0.002734 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001546 seconds.
-  path: Assets/GrassFlowers/Textures/GrassFlowers/grass02.tga
-  artifactKey: Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/GrassFlowers/Textures/GrassFlowers/grass02.tga using Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0355666a58389dc50b90040837eb112') in 0.121364 seconds
+  Time since last request: 17.906753 seconds.
+  path: Assets/IkinokoBattle/Prefabs/Slime_Green.prefab
+  artifactKey: Guid(18c5a31ae6eeb4073913ee8baaa5fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IkinokoBattle/Prefabs/Slime_Green.prefab using Guid(18c5a31ae6eeb4073913ee8baaa5fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea187c65d31c9f31f7333a89061b86a') in 0.178808 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 66
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/GrassFlowers/Demo/DemoGrassFlowersSettings.lighting
-  artifactKey: Guid(aabde5b4782bc48d493baa37cb0a86c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/GrassFlowers/Demo/DemoGrassFlowersSettings.lighting using Guid(aabde5b4782bc48d493baa37cb0a86c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'bf6cc9a5ea2e7171427c4eaa7dbc2673') in 0.026909 seconds
+  Time since last request: 105.428730 seconds.
+  path: Assets/IkinokoBattle/Prefabs/Slime_Green.prefab
+  artifactKey: Guid(18c5a31ae6eeb4073913ee8baaa5fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IkinokoBattle/Prefabs/Slime_Green.prefab using Guid(18c5a31ae6eeb4073913ee8baaa5fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd582d1c5420a354becb5ba9551ec5c3e') in 0.023504 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 66
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Surface.prefab
-  artifactKey: Guid(8a8ade231d4e4115a527f463ebb01a8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Surface.prefab using Guid(8a8ade231d4e4115a527f463ebb01a8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d443421f34c97ab56d26e69111c991f') in 0.040229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV01_N.png
-  artifactKey: Guid(77f758ad16f6580469ca8f42205f7b78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV01_N.png using Guid(77f758ad16f6580469ca8f42205f7b78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '965f7ff5967b505bc81eb7e05e108bb1') in 0.168950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/PF CTI Windzone.prefab
-  artifactKey: Guid(eaf383cb55cf38f448529df28e28abba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/PF CTI Windzone.prefab using Guid(eaf383cb55cf38f448529df28e28abba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfe9cdd0ad97c53d8f167d23e65abc72') in 0.011826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Flag/Models/Flag.fbx
-  artifactKey: Guid(6767b4a71c004723b61cf1c813fe0d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Flag/Models/Flag.fbx using Guid(6767b4a71c004723b61cf1c813fe0d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b4e79551853bf1dd943575bab38a979') in 0.076670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Conifers [BOTD]/CTI_URP_11.0_runtime.unitypackage
-  artifactKey: Guid(9a480bd7d5bfc664cb6763b6a5dd4993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/CTI_URP_11.0_runtime.unitypackage using Guid(9a480bd7d5bfc664cb6763b6a5dd4993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aba957b4cc1634ff2e3ebf73f5776ed1') in 0.003616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer x Stump [Albedo] [Smoothness].tif
-  artifactKey: Guid(d7e1060759db04260bbeb12bc11664bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer x Stump [Albedo] [Smoothness].tif using Guid(d7e1060759db04260bbeb12bc11664bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cccba15a097fb41f5ff6625365de8d2c') in 0.027359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Bark Array [Albedo] [Smoothness].asset
-  artifactKey: Guid(41ebf0d05b0ec4283bcbbbc656c82aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Bark Array [Albedo] [Smoothness].asset using Guid(41ebf0d05b0ec4283bcbbbc656c82aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bb23655f8265fff92f50b9e596506ef') in 0.043983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Meshes/SM Conifer Bare LOD1.asset
-  artifactKey: Guid(c6029981137bd4653b2149d26518cf28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Meshes/SM Conifer Bare LOD1.asset using Guid(c6029981137bd4653b2149d26518cf28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8e097d84a385e74f1fd83e4143a2298') in 0.007621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower03.tga
-  artifactKey: Guid(c6bde8cacfa93444fa98152cb9e36815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower03.tga using Guid(c6bde8cacfa93444fa98152cb9e36815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f4e5ed38e3be5ea8d95b0fc9c5cf453') in 0.026934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/3.mat
-  artifactKey: Guid(0fffec6e5e994a65b068aa2424ec22ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/3.mat using Guid(0fffec6e5e994a65b068aa2424ec22ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97ac2883d0cb0c72b0cd99e3400283a6') in 0.067540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/GroundCracked01.png
-  artifactKey: Guid(a87cbf62329d56d4681d92302095915c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/GroundCracked01.png using Guid(a87cbf62329d56d4681d92302095915c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1601b4ada95fcbe52f1ad987b3a5506') in 0.032887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes/Example 2/LightingData.asset
-  artifactKey: Guid(605766305bca4c248af32df6534fec04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes/Example 2/LightingData.asset using Guid(605766305bca4c248af32df6534fec04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:277)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:214)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexEntryImporter.cs:59)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.651 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.224 seconds
+Domain Reload Profiling: 1875ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1225ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (431.4 KB). Loaded Objects now: 3944.
+Memory consumption went from 191.4 MB to 191.0 MB.
+Total: 4.715319 ms (FindLiveObjects: 0.333860 ms CreateObjectMapping: 0.306823 ms MarkObjects: 3.897431 ms  DeleteObjects: 0.176051 ms)
 
-[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 277]
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149.529880 seconds.
+  path: Assets/IkinokoBattle/Scripts/Spawner.cs
+  artifactKey: Guid(9cf04e0cf9cc44157bc46c2f417de87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IkinokoBattle/Scripts/Spawner.cs using Guid(9cf04e0cf9cc44157bc46c2f417de87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4879aa09cd06687437e491f2cbfeaa') in 0.002319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.695 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.213 seconds
+Domain Reload Profiling: 1907ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1214ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (637ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3394 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (431.7 KB). Loaded Objects now: 3960.
+Memory consumption went from 196.2 MB to 195.7 MB.
+Total: 4.599345 ms (FindLiveObjects: 0.315618 ms CreateObjectMapping: 0.335058 ms MarkObjects: 3.771946 ms  DeleteObjects: 0.175565 ms)
 
- -> (artifact id: 'd74841f0ecf0632d18cdc7fdb25f2cd6') in 0.004892 seconds
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.089029 seconds.
+  path: Assets/IkinokoBattle/Scripts/Spawner.cs
+  artifactKey: Guid(9cf04e0cf9cc44157bc46c2f417de87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IkinokoBattle/Scripts/Spawner.cs using Guid(9cf04e0cf9cc44157bc46c2f417de87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bfb1f04c5e2ceddef9e89a6d483dc5') in 0.001947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 126.309846 seconds.
+  path: Assets/IkinokoBattle/Scenes
+  artifactKey: Guid(5b7ab8e8c17fc4213944d64c230be15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IkinokoBattle/Scenes using Guid(5b7ab8e8c17fc4213944d64c230be15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782f63fc43fa271db46776e5ba6bdf66') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 92.798430 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(29a44d217d8d34dcf8c2d5a6f247b76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(29a44d217d8d34dcf8c2d5a6f247b76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aa35011b754ed7d126c5c9ebe97871') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090373 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(ebec9ff6957b449c5b9b3edbd082c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh.asset using Guid(ebec9ff6957b449c5b9b3edbd082c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26e8e03b9f11a2846821c2e4d650143') in 0.018336 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Conifers [BOTD]/CTI_URP_14plus_runtime.unitypackage
-  artifactKey: Guid(304f43e57b45a8d43bb06425c2b4b50e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/CTI_URP_14plus_runtime.unitypackage using Guid(304f43e57b45a8d43bb06425c2b4b50e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '941d34341db357ee3e1ddefa5ba82ac0') in 0.003669 seconds
+  Time since last request: 22.739940 seconds.
+  path: Assets/IkinokoBattle/Scenes/TitleScene.unity
+  artifactKey: Guid(fef94755bd5cf4fb9926f12d304a8b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IkinokoBattle/Scenes/TitleScene.unity using Guid(fef94755bd5cf4fb9926f12d304a8b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ed8ed16e1e5389c4436ca742f5705b') in 0.000835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.946982 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Scenes
+  artifactKey: Guid(4c16b4e26db967b4d91323723240df74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Scenes using Guid(4c16b4e26db967b4d91323723240df74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032322450f543227025e238c830aaa99') in 0.000457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.092667 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Scenes/New Post-Processing Profile.asset
+  artifactKey: Guid(7e0a0992a7ecdce4e991f5d628f6e3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Scenes/New Post-Processing Profile.asset using Guid(7e0a0992a7ecdce4e991f5d628f6e3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f89e41a610053317fd31b285f779bd') in 0.001485 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Normal] [AO] [Specular].psd
-  artifactKey: Guid(cc724252428df448db5a10316678900b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Normal] [AO] [Specular].psd using Guid(cc724252428df448db5a10316678900b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bcc8ca581b9cb17a72aa161c1926438') in 0.029694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Meshes/SM Conifer Tall LOD1.asset
-  artifactKey: Guid(07ec567d1ba5c4f178bbc3f291f0d315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Meshes/SM Conifer Tall LOD1.asset using Guid(07ec567d1ba5c4f178bbc3f291f0d315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8dde1d9ab0edb71cab604b422ffc2747') in 0.008561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Rainbow/Rainbow.prefab
-  artifactKey: Guid(97768f613245426fb1fc4145b06b5c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Rainbow/Rainbow.prefab using Guid(97768f613245426fb1fc4145b06b5c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7b2ea31f363d0e146107ebd9b37e873') in 0.007845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/PostProcessingMonitor.cs
-  artifactKey: Guid(fa29403b48d54f72a42a2a4597a5e93f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/PostProcessingMonitor.cs using Guid(fa29403b48d54f72a42a2a4597a5e93f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd53421a6365113c7f053724cc797b48') in 0.005213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
+  Time since last request: 13.341875 seconds.
   path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/0.mat
-  artifactKey: Guid(cf7820da9cb946a6b2157e7775d125c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/0.mat using Guid(cf7820da9cb946a6b2157e7775d125c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35db4cb7cd7bc10b6de988e3daee8ba2') in 0.010462 seconds
+  artifactKey: Guid(cf7820da9cb946a6b2157e7775d125c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/0.mat using Guid(cf7820da9cb946a6b2157e7775d125c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2a21cc9879ce09cd5be8aff74045cd') in 1.018249 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Specular.prefab
-  artifactKey: Guid(a3b85ee7155343c0a5077c56fdbddf1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Specular.prefab using Guid(a3b85ee7155343c0a5077c56fdbddf1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13f350db0488a7f5d5d790ebd2b7e1bf') in 0.011583 seconds
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Weapons/Battle_axe_metal.fbx
+  artifactKey: Guid(d506cbbd0c2b7c74bb8e1ce7cee5dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Weapons/Battle_axe_metal.fbx using Guid(d506cbbd0c2b7c74bb8e1ce7cee5dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6952439f06f9247e62fdfec7ea72787') in 0.079125 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer  Branches [Albedo] [Smoothness].tif
-  artifactKey: Guid(5597dc21a8aed4e7ba2c0f93dc4b1d98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer  Branches [Albedo] [Smoothness].tif using Guid(5597dc21a8aed4e7ba2c0f93dc4b1d98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '214380f9abf7f593c8082f7f24b0795c') in 0.028265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Flag/Materials/Flag 0.mat
-  artifactKey: Guid(ea3d97bab21448d481095e153c0bc087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Flag/Materials/Flag 0.mat using Guid(ea3d97bab21448d481095e153c0bc087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98844aa705a3acc3ad8b83029989a81b') in 0.008898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower07.tga
-  artifactKey: Guid(5afd653e4d79b7a4c9523dd543c0bead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower07.tga using Guid(5afd653e4d79b7a4c9523dd543c0bead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0ce1a66fa1ea7f8a0d0540f9d4aa926') in 0.024321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Specular Mirror.prefab
-  artifactKey: Guid(be3a74ee4c9d4d899462b72a41f62728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Specular Mirror.prefab using Guid(be3a74ee4c9d4d899462b72a41f62728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5fca70528551dc575aa4de34d76fd5c9') in 0.009668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab
-  artifactKey: Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab using Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7dc645bffcfd984161147d98577d8ef8') in 0.015008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/GrassFlowers/Demo/DemoGrassFlowers/ReflectionProbe-0.exr
-  artifactKey: Guid(ff26dd0d532f43942b51232390841a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/GrassFlowers/Demo/DemoGrassFlowers/ReflectionProbe-0.exr using Guid(ff26dd0d532f43942b51232390841a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee919de6f962625d760d02f94b60db62') in 0.027935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_20.png
-  artifactKey: Guid(c464cd3a16094aeb84f5b0d2c8969f94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_20.png using Guid(c464cd3a16094aeb84f5b0d2c8969f94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1dde87d3b91b05f0b657656e087b21f') in 0.022465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs
-  artifactKey: Guid(dac34bb0a46d494f809fca45cf3c249b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs using Guid(dac34bb0a46d494f809fca45cf3c249b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af1bfee176e875f8eac8196317b20968') in 0.004595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/UserLutModelEditor.cs
-  artifactKey: Guid(822be2465d504c21b3a9118c9d919256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/UserLutModelEditor.cs using Guid(822be2465d504c21b3a9118c9d919256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51c8b8524f2e27ea44dd40cfc1c2ec7f') in 0.005819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_15.png
-  artifactKey: Guid(1e2eb133ce3e4810906486d7b7f0d383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_15.png using Guid(1e2eb133ce3e4810906486d7b7f0d383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8eaf073be94466532b08c4ce75dde6d') in 0.019418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Palm S.png
-  artifactKey: Guid(16c8fe72d8b042dd8998fd198a12b283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Palm S.png using Guid(16c8fe72d8b042dd8998fd198a12b283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '379c88b6963a1684197a332343226d73') in 0.026028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_23.png
-  artifactKey: Guid(efb6d39d1d2f44428db35488956bbe45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_23.png using Guid(efb6d39d1d2f44428db35488956bbe45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4b27091b4b9aad4394c552d87565217') in 0.022771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs
-  artifactKey: Guid(1f6ea87026584d009206d1b8816e73dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs using Guid(1f6ea87026584d009206d1b8816e73dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '339cbf8bfba9702285b2b561bf92aecb') in 0.006221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/BloomModelEditor.cs
-  artifactKey: Guid(89a52be18e9d45fab857ee8bf10c0c6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/BloomModelEditor.cs using Guid(89a52be18e9d45fab857ee8bf10c0c6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '626212f82cc3e1e8e1cc350988b5bfc3') in 0.005288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs
-  artifactKey: Guid(7262e030f6d344b9b248d916f576890e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs using Guid(7262e030f6d344b9b248d916f576890e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e38b07175d434d41122a04ee70f775ab') in 0.007447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Models/Palm Tress.fbx
-  artifactKey: Guid(ac46fdecd19940e08753b2f1f80b22a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Models/Palm Tress.fbx using Guid(ac46fdecd19940e08753b2f1f80b22a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab3497da3fc1eebdd22601e810b26878') in 0.030512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer x Stump [Normal] [AO] [Specular].tif
-  artifactKey: Guid(7292f645408434cb896aaee2fd9c2a14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer x Stump [Normal] [AO] [Specular].tif using Guid(7292f645408434cb896aaee2fd9c2a14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90596db780b28c8728e8898f700cc7d7') in 0.029113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GroundStones01GroundStones01_N2023054508611406.terrainlayer
-  artifactKey: Guid(90382a40a5f144a399f9477baa79bf73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/_TerrainAutoUpgrade/layer_GroundStones01GroundStones01_N2023054508611406.terrainlayer using Guid(90382a40a5f144a399f9477baa79bf73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '473e8a52ee6f79e0a7bfa8cf37a15a63') in 0.067714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Tall BOTD.prefab
-  artifactKey: Guid(f41642586885949968180791f012ee81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Tall BOTD.prefab using Guid(f41642586885949968180791f012ee81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbec51090cb28899ea5e5f81e73ca391') in 0.020135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs
-  artifactKey: Guid(57b705d6a1af481dad5e03c653aec655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs using Guid(57b705d6a1af481dad5e03c653aec655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0302dbf9dbe6abdd20ef16ec958206a0') in 0.005184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_26.png
-  artifactKey: Guid(5daa73a493cd44978220c3729c28308f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_26.png using Guid(5daa73a493cd44978220c3729c28308f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '833e382f4ce9dcd186238a86a8573d6d') in 0.023353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor Resources/UI/Trackball.shader
-  artifactKey: Guid(690c6a22477144a0873301ebc7af420a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor Resources/UI/Trackball.shader using Guid(690c6a22477144a0873301ebc7af420a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f14729193f9b03dcbe25cf3b9b3b04e') in 0.011611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_2.png
-  artifactKey: Guid(e5cba22f8dd24cedbe6b574f76f6b987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_2.png using Guid(e5cba22f8dd24cedbe6b574f76f6b987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5230b711dd715418d04a0fb8e899b40c') in 0.019738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs
-  artifactKey: Guid(c6fcd2079d8e49d18386ec8cabe0015d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs using Guid(c6fcd2079d8e49d18386ec8cabe0015d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fea503976bd435f6074e39916bdd477b') in 0.006453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Monitors/ParadeMonitor.cs
-  artifactKey: Guid(a377c2a58dfb49be87e969fd3bbcff3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor/Monitors/ParadeMonitor.cs using Guid(a377c2a58dfb49be87e969fd3bbcff3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7309c50cb0f0791b3c59bfc12093e642') in 0.007968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Palm.mat
-  artifactKey: Guid(5060be45a1694ec3a40040b1c3f3e8f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Palm.mat using Guid(5060be45a1694ec3a40040b1c3f3e8f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cefd6ed10cdb1e8e6101fd16ed5255e') in 0.167874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.025803 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_31.png
-  artifactKey: Guid(facc58a3321846209ba32feef2bf9886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_31.png using Guid(facc58a3321846209ba32feef2bf9886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4874950b0a4126aa7f5d21f0a924a31') in 0.020775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_43.png
-  artifactKey: Guid(62862cb91a8a4694a4a83b757d2b94a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_43.png using Guid(62862cb91a8a4694a4a83b757d2b94a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8925bdcd74e343c75adfa4bceb718c1') in 0.021566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_51.png
-  artifactKey: Guid(a505476c45a54fe090a0de1265391970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_51.png using Guid(a505476c45a54fe090a0de1265391970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3b59156295b59d4f9ee7a68499b58db') in 0.020626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Shaders/FXAA3.cginc
-  artifactKey: Guid(3193dbc121944537a6b64f908a10215a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Shaders/FXAA3.cginc using Guid(3193dbc121944537a6b64f908a10215a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10bb9512b4fed79f2a300e507468aeba') in 0.003539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_46.png
-  artifactKey: Guid(85124f1fbbdf479c97cddcdd98003c53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_46.png using Guid(85124f1fbbdf479c97cddcdd98003c53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a3f8de50b7106a276a9b0b9b39aab2b') in 0.022445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_39.png
-  artifactKey: Guid(d3642e0cd8424e51b78ff991b6a50238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_39.png using Guid(d3642e0cd8424e51b78ff991b6a50238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12ebcfff40df967f69b0ec9672652631') in 0.020627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/VignetteComponent.cs
-  artifactKey: Guid(5744fb0377d5458dbce6b1a74168214b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/VignetteComponent.cs using Guid(5744fb0377d5458dbce6b1a74168214b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '292955ef145246740229677143241103') in 0.005847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_9.png
-  artifactKey: Guid(566a3a6011264ab0ae2bee49df737f05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_9.png using Guid(566a3a6011264ab0ae2bee49df737f05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30bcacf9c067e7cc0ab68863a60e32ef') in 0.021531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_47.png
-  artifactKey: Guid(d673a26b82aa4a94b58fd39a9b5b39ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_47.png using Guid(d673a26b82aa4a94b58fd39a9b5b39ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '973d9082a2756ab975a59eefc255acae') in 0.022197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Shaders/DepthOfField.shader
-  artifactKey: Guid(49b5e6ff805b4793abcf7de81b531480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Shaders/DepthOfField.shader using Guid(49b5e6ff805b4793abcf7de81b531480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ce6b0b8f036973ff0d239cc1ca41f43') in 0.016911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_60.png
-  artifactKey: Guid(d986ed4cba324028a6f571631d9dcb03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_60.png using Guid(d986ed4cba324028a6f571631d9dcb03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3733716b66f0e6c1182823cb738a145d') in 0.022412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_62.png
-  artifactKey: Guid(cc034b7491a74de3865e567cfe385c21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_62.png using Guid(cc034b7491a74de3865e567cfe385c21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34684205a39f450213eb4ee36ae1fa36') in 0.021012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Shaders/ScreenSpaceRaytrace.cginc
-  artifactKey: Guid(ac0ccf9c8f1245369297c34cf01c8ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Shaders/ScreenSpaceRaytrace.cginc using Guid(ac0ccf9c8f1245369297c34cf01c8ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '403efe9f6acda86a0d3826b8ec9bcca2') in 0.004121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/ColorGradingComponent.cs
-  artifactKey: Guid(f0582c8aa5c444bdbf919b00ffb9376a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/ColorGradingComponent.cs using Guid(f0582c8aa5c444bdbf919b00ffb9376a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '072546f186cd5cb87e0765a9b6bb1968') in 0.006313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_38.png
-  artifactKey: Guid(fd62e1522a014d96b873774929606b89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_38.png using Guid(fd62e1522a014d96b873774929606b89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5b93a4860e286ec0cf843a018ba0635') in 0.019328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_34.png
-  artifactKey: Guid(bea0af6d72d644ee9e9ba0d816f8f072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_34.png using Guid(bea0af6d72d644ee9e9ba0d816f8f072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3030a540544946d7743d8002fc99b82e') in 0.020206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_40.png
-  artifactKey: Guid(bf1050addba34a23ad34c42616f5cb05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_40.png using Guid(bf1050addba34a23ad34c42616f5cb05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26f70a2b39fcef0790136287287074fb') in 0.023493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000075 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_42.png
-  artifactKey: Guid(0525581e53c24f048d70ad35329f3785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Resources/Bluenoise64/LDR_LLL1_42.png using Guid(0525581e53c24f048d70ad35329f3785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1a7cea660453a4dc365a95fad672080') in 0.020336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.264225 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/MotionBlurModel.cs
-  artifactKey: Guid(fc6ae35790d34ca5b7f1066c5d0cd1a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/MotionBlurModel.cs using Guid(fc6ae35790d34ca5b7f1066c5d0cd1a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1c3017b124eb278e756f0188d4f9d80') in 0.005094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_ShaderGUI.cs
-  artifactKey: Guid(71369e1df01d140e5888122d9de3bd6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_ShaderGUI.cs using Guid(71369e1df01d140e5888122d9de3bd6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9ddee9ab18625db5864627895b2621c') in 0.008167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/Materials/WheelMotionVectors.mat
-  artifactKey: Guid(6f8e1b3731e042e8a9a4b9b53b6fcb80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/Materials/WheelMotionVectors.mat using Guid(6f8e1b3731e042e8a9a4b9b53b6fcb80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b00d3713493c07543a401582fae8847') in 0.006805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/CustomMotionVectorDebugProfile.asset
-  artifactKey: Guid(eabde4840de046938dbb4f91c1d83fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/CustomMotionVectorDebugProfile.asset using Guid(eabde4840de046938dbb4f91c1d83fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29ab927a36c381615203f025bc0cbc25') in 0.026573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Utils/GraphicsUtils.cs
-  artifactKey: Guid(d4498ea2cd17401c949b24b4700c2255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Utils/GraphicsUtils.cs using Guid(d4498ea2cd17401c949b24b4700c2255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '615b1b56f728868415125ccf1824c5b9') in 0.004640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/Editor/NVDSkyDemoMaterials.cs
-  artifactKey: Guid(62bf26acbd8748f09e13364be3e44039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/Editor/NVDSkyDemoMaterials.cs using Guid(62bf26acbd8748f09e13364be3e44039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ede94a1fd4b84b9f7062e178ecf3ffd') in 0.005909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_AdvancedEdgeFluttering.cs
-  artifactKey: Guid(3bd7ba1dccff84229b37ae2455db67a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_AdvancedEdgeFluttering.cs using Guid(3bd7ba1dccff84229b37ae2455db67a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '170e4bf6ac2600ce0cd0140d669f1e0c') in 0.004380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Sources/Materials/M Conifer Leaves BODT.mat
-  artifactKey: Guid(086b89f98297d43a4ae1f80ebc88e938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Sources/Materials/M Conifer Leaves BODT.mat using Guid(086b89f98297d43a4ae1f80ebc88e938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9771b16bc0760da9ec2044fb91b06dd9') in 0.304971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/Materials/DebugQuad.mat
-  artifactKey: Guid(b59c2f79e8544599995df781b13fb391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/Materials/DebugQuad.mat using Guid(b59c2f79e8544599995df781b13fb391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4aaf82d9592c33db790073b36d38efa') in 0.008174 seconds
+  path: Assets/Level 1 Monster Pack/Materials/Ghost/Ghost_Violet.mat
+  artifactKey: Guid(da7164be9b7e1fb45a33679cb7f62648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Monster Pack/Materials/Ghost/Ghost_Violet.mat using Guid(da7164be9b7e1fb45a33679cb7f62648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ec0294d1219ca3faa4e1c3ebe7ffe4') in 0.149855 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000077 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Resources/CTI_Internal-DeferredShading.shader
-  artifactKey: Guid(74c1aeb6f161f4fc5959aedac7310b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Resources/CTI_Internal-DeferredShading.shader using Guid(74c1aeb6f161f4fc5959aedac7310b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38d8ff59d6af6d6734d3aee8f05d9904') in 0.010081 seconds
+  path: Assets/Level 1 Monster Pack/Prefabs/Bat/Bat_Red.prefab
+  artifactKey: Guid(67f0474ce7d8d344fa04ba561d36d761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Monster Pack/Prefabs/Bat/Bat_Red.prefab using Guid(67f0474ce7d8d344fa04ba561d36d761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a4597123f433eb27ce588eaca590f9') in 0.018078 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 96
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/Models/WheelMovecs.FBX
-  artifactKey: Guid(e79a043e23f64204adf09e4ad74c1e90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/Models/WheelMovecs.FBX using Guid(e79a043e23f64204adf09e4ad74c1e90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5027cefc4bca40c53f2ed3aac5d6412f') in 0.028890 seconds
+  Time since last request: 0.000105 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv01.fbx
+  artifactKey: Guid(5649e5f478e2144fabd2dc0b67e91185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv01.fbx using Guid(5649e5f478e2144fabd2dc0b67e91185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfc312983c4f52903c296282c166fdf') in 0.016373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Models/Dashi_Low.fbx
+  artifactKey: Guid(83c7a64e820e7d645b6ac76df6718bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Models/Dashi_Low.fbx using Guid(83c7a64e820e7d645b6ac76df6718bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffb6f11b93cfd36b7e39b259ee45efa') in 0.039291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plants/Grass_2.fbx
+  artifactKey: Guid(530ed7991554bfc4fb16d8a367d50186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plants/Grass_2.fbx using Guid(530ed7991554bfc4fb16d8a367d50186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc77c31b58da82d9ed5d8d5512b1301d') in 0.039362 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Resources/CTI_Camera-DepthNormalTexture_301.shader
-  artifactKey: Guid(f1f73434226324b14a7261c1175d543f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Resources/CTI_Camera-DepthNormalTexture_301.shader using Guid(f1f73434226324b14a7261c1175d543f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '205e4168b40809fad0b74d5c4230d00a') in 0.018413 seconds
+  Time since last request: 0.000089 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Apple.prefab
+  artifactKey: Guid(76b431e064cf75347890d21410801432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Apple.prefab using Guid(76b431e064cf75347890d21410801432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49f467da4c85229a579a7be0e28e125') in 0.009542 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Sources/Materials/M Conifer Bark Simple BODT.mat
-  artifactKey: Guid(fcbc9e998124d414da7cb0d951f649a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Sources/Materials/M Conifer Bark Simple BODT.mat using Guid(fcbc9e998124d414da7cb0d951f649a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '412009fb7cb126eb1a99a649c66d661f') in 0.173303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 257.047996 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes/Example 2/LightingData.asset
-  artifactKey: Guid(605766305bca4c248af32df6534fec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes/Example 2/LightingData.asset using Guid(605766305bca4c248af32df6534fec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
- -> (artifact id: 'fb1335465b567ef51a7bee95b507aace') in 0.012691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2213.234890 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes/Example 0/LightingData.asset
-  artifactKey: Guid(cebcfbf9e3984fafa34629c2ec61e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Scenes/Example 0/LightingData.asset using Guid(cebcfbf9e3984fafa34629c2ec61e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
- -> (artifact id: '4f8ada290754a86776961aecb1eea922') in 0.001738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 8.272168 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer
-  artifactKey: Guid(60538db14ee2a4700b42887ff4afb42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Grass01_BigUVd261c09ae55ba1e3.terrainlayer using Guid(60538db14ee2a4700b42887ff4afb42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9be8e6039eb15eca3dca46210c693c2') in 0.108799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GroundCracked01GroundCracked01_N793646612c42751.terrainlayer
-  artifactKey: Guid(873e9a09367ec4e1a96200b807ebb628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GroundCracked01GroundCracked01_N793646612c42751.terrainlayer using Guid(873e9a09367ec4e1a96200b807ebb628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdcfdabb18e4f8f20b2feae4998ec06') in 0.037678 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000069 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GroundDryLeaves01GroundDryLeaves01_N793646612c42751.terrainlayer
-  artifactKey: Guid(6a278b11dd99f4f0aa8376b047095b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GroundDryLeaves01GroundDryLeaves01_N793646612c42751.terrainlayer using Guid(6a278b11dd99f4f0aa8376b047095b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b4b0fe77f36f5eeaa79733acb1d3bc') in 0.098976 seconds
+  path: Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/SnowBall/Models/ENEMY_SAPPORO.fbx
+  artifactKey: Guid(4b23f97a600443f45b040fa38bdc544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/SnowBall/Models/ENEMY_SAPPORO.fbx using Guid(4b23f97a600443f45b040fa38bdc544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d4fa2463c71167f815adab113e6cd6') in 0.022834 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GrassUV02GrassUV02_N3d1cca0d6d0e9938.terrainlayer
-  artifactKey: Guid(0d6df97b645a0415290ca15f2b277334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GrassUV02GrassUV02_N3d1cca0d6d0e9938.terrainlayer using Guid(0d6df97b645a0415290ca15f2b277334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320cba63f341c4456d5394adab0d3bd7') in 0.229736 seconds
+  Time since last request: 0.000108 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Canned food_blue.prefab
+  artifactKey: Guid(91e7a47ae7ccf824eb8c10bff37cf693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Canned food_blue.prefab using Guid(91e7a47ae7ccf824eb8c10bff37cf693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f29c4ae0a3b0376d9289a94ad674c8') in 0.009033 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 2.792853 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures
-  artifactKey: Guid(420ce52555ac5fd4581d02d8662ac746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures using Guid(420ce52555ac5fd4581d02d8662ac746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3be0f3f46764ff799abe66c1c3dd34') in 0.000628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.047961 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV01.png
-  artifactKey: Guid(94e5dd2784ae3a44a930dba86cba9f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV01.png using Guid(94e5dd2784ae3a44a930dba86cba9f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab965c71b78500fe1662dd4ad202524') in 0.093956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV02.png
-  artifactKey: Guid(bafadcf258df85b4686863cbaa688fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV02.png using Guid(bafadcf258df85b4686863cbaa688fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013569967f99bf9b7cba752466fbbdc7') in 0.079968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/GroundDryLeaves01.png
-  artifactKey: Guid(3f893818068c13c498261af150bea6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/GroundDryLeaves01.png using Guid(3f893818068c13c498261af150bea6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81faef3f6fc1ff157ba39177c9b03a5a') in 0.045326 seconds
+  Time since last request: 0.000096 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Materials/mat_dashi.mat
+  artifactKey: Guid(335df6f699bab9347ba6f74dd6658834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Materials/mat_dashi.mat using Guid(335df6f699bab9347ba6f74dd6658834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb92662405fe60674094a8f0c98ff8e') in 0.009923 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000074 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/GroundCracked01_N.png
-  artifactKey: Guid(9511ab33cd5f6724f8c31c380a4814af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/GroundCracked01_N.png using Guid(9511ab33cd5f6724f8c31c380a4814af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55af5e84e2615531c31c9e4d573c3819') in 0.137109 seconds
+  path: Assets/Scenes/Low_Poly_Survival/Models/Food/Canned food_blue.fbx
+  artifactKey: Guid(b0a2adf24e28f7744b163cbf7bba8567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Food/Canned food_blue.fbx using Guid(b0a2adf24e28f7744b163cbf7bba8567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e351c7b7bee75818a760836902aa6a') in 0.020039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Plants/Grass.prefab
+  artifactKey: Guid(8a030e376a3781a4e8919e45ce32d5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Plants/Grass.prefab using Guid(8a030e376a3781a4e8919e45ce32d5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33af3a588b8e3d27cc78ac737cb2b6ee') in 0.009050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Level 1 Monster Pack/Materials/Bat/Bat_Color.mat
+  artifactKey: Guid(dc2847452cc2cc74bbd193a78f86030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Monster Pack/Materials/Bat/Bat_Color.mat using Guid(dc2847452cc2cc74bbd193a78f86030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff1381b3e647296d096852a37d8ceb4') in 0.026669 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV02_N.png
-  artifactKey: Guid(db6b5112f8b3bcf478707e82ef048e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV02_N.png using Guid(db6b5112f8b3bcf478707e82ef048e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be9a93eb7741f66dedc07c263b5ad70') in 0.148509 seconds
+  Time since last request: 0.000127 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Canned food_Red.prefab
+  artifactKey: Guid(47d0c256f4759b14180070e1eac08714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Canned food_Red.prefab using Guid(47d0c256f4759b14180070e1eac08714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01aeb57a0bc7d31204dbc943ce6bea16') in 0.009072 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 702.742169 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Bark A.png
-  artifactKey: Guid(b8bb2c9193834061a1aa2fe7de4d978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Bark A.png using Guid(b8bb2c9193834061a1aa2fe7de4d978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10332315880b359a849e4facafb6e9dc') in 0.010735 seconds
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Food/Meat.fbx
+  artifactKey: Guid(45524efaedad6224ab0207861e0a468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Food/Meat.fbx using Guid(45524efaedad6224ab0207861e0a468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baddc708d219f0d967c4730623164a02') in 0.023642 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Bark S.png
-  artifactKey: Guid(761d0b41209b4bc5b3f206ccde3a4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Bark S.png using Guid(761d0b41209b4bc5b3f206ccde3a4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445ee614888a5383871b2c3f454b7107') in 0.010298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer  Branches [Albedo] [Smoothness].tif
-  artifactKey: Guid(5597dc21a8aed4e7ba2c0f93dc4b1d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer  Branches [Albedo] [Smoothness].tif using Guid(5597dc21a8aed4e7ba2c0f93dc4b1d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ae94e630b835141462bde64b5b3e64') in 0.019915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Normal] [AO] [Specular].psd
-  artifactKey: Guid(cc724252428df448db5a10316678900b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Normal] [AO] [Specular].psd using Guid(cc724252428df448db5a10316678900b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4468d2d4c005aa021e2055e7ff7eba26') in 0.017790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches_Normal combined.tif
-  artifactKey: Guid(d7dcdeeae2a5d4c6f8e5328e09728b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches_Normal combined.tif using Guid(d7dcdeeae2a5d4c6f8e5328e09728b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ef98b4c03e0cd1ca16065e94283e10') in 0.019068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Albedo] [Smoothness].tif
-  artifactKey: Guid(802f5539a44734bfcacbe5243d44edf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Albedo] [Smoothness].tif using Guid(802f5539a44734bfcacbe5243d44edf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31eae6239558c3225cd30d53f265049') in 0.012413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches [Trans] [Smoothness].psd
-  artifactKey: Guid(ca6a46a4d37514e00ae826202bad794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches [Trans] [Smoothness].psd using Guid(ca6a46a4d37514e00ae826202bad794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12480d4fd65ee5eb14307d85d170b835') in 0.013126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 11.830128 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/Textures/DebugMotionVectors.png
-  artifactKey: Guid(a0b498f289454d898dde4aed2694df7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Utilities/CustomMotionTexture/Textures/DebugMotionVectors.png using Guid(a0b498f289454d898dde4aed2694df7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dbc29797c4047ac1b76c54130473a1') in 0.009686 seconds
+  Time since last request: 0.000095 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Materials/mat_screen_Bx2.mat
+  artifactKey: Guid(d9a306d66f31a2f458b6379b35603aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Materials/mat_screen_Bx2.mat using Guid(d9a306d66f31a2f458b6379b35603aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe48ce680abb903e89ba94dda76a6ac0') in 0.013617 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000075 seconds.
-  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower03.tga
-  artifactKey: Guid(c6bde8cacfa93444fa98152cb9e36815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower03.tga using Guid(c6bde8cacfa93444fa98152cb9e36815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fc1f1e0023fa4b72ffc6069c265b79') in 0.023801 seconds
+  path: Assets/Scenes/Low_Poly_Survival/Models/Fence.fbx
+  artifactKey: Guid(5cfca10002760d846ba8855d1ba9c93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Fence.fbx using Guid(5cfca10002760d846ba8855d1ba9c93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36f17b39ccbe0aa42c3a981668ada49') in 0.035749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv06.fbx
+  artifactKey: Guid(8b183e03416264458a62376bdc0c881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv06.fbx using Guid(8b183e03416264458a62376bdc0c881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3544278f71242aac8dfd773a81dd2b50') in 0.015080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/mode/Materials/08 - Default.mat
+  artifactKey: Guid(67d60b2d83e0e442ca081c6144b41b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mode/Materials/08 - Default.mat using Guid(67d60b2d83e0e442ca081c6144b41b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b44bccc2a8e701a89d5d105d660d8c') in 0.097352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Level 1 Monster Pack/Materials/Ghost/Ghost_Green.mat
+  artifactKey: Guid(d2b7dde03ec3f2944b36f585daf401ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Monster Pack/Materials/Ghost/Ghost_Green.mat using Guid(d2b7dde03ec3f2944b36f585daf401ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1016c615cb5acb3d5fe19cbdfa184ceb') in 0.017480 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga
-  artifactKey: Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga using Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26beb5d6e5567f93660974c33c66d93c') in 0.012847 seconds
+  Time since last request: 0.000080 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Plants/Bush 1.prefab
+  artifactKey: Guid(d7b3dac977b02034c9a2c16f9985fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Plants/Bush 1.prefab using Guid(d7b3dac977b02034c9a2c16f9985fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e222b145163764c0e53f4885e8fd9f') in 0.011371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plants/Bush_1.fbx
+  artifactKey: Guid(6af9aff2a4469b648864c101a7be0718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plants/Bush_1.fbx using Guid(6af9aff2a4469b648864c101a7be0718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753aea2c18e59b1b29af0cc10fbb0e52') in 0.019778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Fish.prefab
+  artifactKey: Guid(e72bae16d9779ef47a3779dd94e9fc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Fish.prefab using Guid(e72bae16d9779ef47a3779dd94e9fc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c4f87d1a3c775adeeb00dd163f5870') in 0.009347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Moduls/Internal staircase.prefab
+  artifactKey: Guid(f2f5fbec3eb33664199ba365d55d715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Moduls/Internal staircase.prefab using Guid(f2f5fbec3eb33664199ba365d55d715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57392c67d9ba0e4d684b3bd937c428fb') in 0.010011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/3.mat
+  artifactKey: Guid(0fffec6e5e994a65b068aa2424ec22ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/3.mat using Guid(0fffec6e5e994a65b068aa2424ec22ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab2287089aa78c7a51b19af44fd140e') in 0.713571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/mode/Materials/06 - Default.mat
+  artifactKey: Guid(c65613d9f117c44c696be0afaf432a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mode/Materials/06 - Default.mat using Guid(c65613d9f117c44c696be0afaf432a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fd5eb79f676a906cda6cf6c27233c5') in 0.009738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/Materials/Horizon 2.mat
+  artifactKey: Guid(a5b6a16e7a9241b2bfdb9e5de455dea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/Materials/Horizon 2.mat using Guid(a5b6a16e7a9241b2bfdb9e5de455dea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6b340e512642cae2934020d7b4802a') in 0.152712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Food/Canned food_Green.fbx
+  artifactKey: Guid(8421e9a9b6be41540addab2801d98069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Food/Canned food_Green.fbx using Guid(8421e9a9b6be41540addab2801d98069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7aa1398f422aa12ef5ae8127a7965d') in 0.029524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Instruments/Metal knife.fbx
+  artifactKey: Guid(74c1c85360b0ec14ba107cc1688dba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Instruments/Metal knife.fbx using Guid(74c1c85360b0ec14ba107cc1688dba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23f33f11eceabe33db06f2309b4100a') in 0.034972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Models/Chouchin_B.fbx
+  artifactKey: Guid(ab4866c4184218b408aacf526e2609cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Models/Chouchin_B.fbx using Guid(ab4866c4184218b408aacf526e2609cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88139db5a7e56f8308824ee2b6715b76') in 0.017094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Models/Chouchin_C.fbx
+  artifactKey: Guid(909918e2c600981488d998bef4593a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Models/Chouchin_C.fbx using Guid(909918e2c600981488d998bef4593a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dee2da8d433dd1fd53c5348703802a3') in 0.016781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Bark.mat
+  artifactKey: Guid(14df40d75f024ff697254789566332c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Palm Trees/Materials/Bark.mat using Guid(14df40d75f024ff697254789566332c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c02784768b1c359e6c71c96fe4b8fe6') in 0.708530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Weapons/Bow.fbx
+  artifactKey: Guid(391b00e7f873ace489f6b29dc600656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Weapons/Bow.fbx using Guid(391b00e7f873ace489f6b29dc600656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558740624dce46d2ba45c925b814eef4') in 0.016053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plants/Cactus_1.fbx
+  artifactKey: Guid(c9f23c57310ed404ca88f37827a730ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plants/Cactus_1.fbx using Guid(c9f23c57310ed404ca88f37827a730ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff25e64ca9548479d781abe0d44b7bff') in 0.035313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Human/Models/Human_Male_A.fbx
+  artifactKey: Guid(008cb863561aecb46b7a5da59aeb0fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Human/Models/Human_Male_A.fbx using Guid(008cb863561aecb46b7a5da59aeb0fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef919bed38c22d68812ca694dae02a4') in 0.032779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Moduls/Board.fbx
+  artifactKey: Guid(da43d8b7c53a3b14394e438947e53806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Moduls/Board.fbx using Guid(da43d8b7c53a3b14394e438947e53806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815c148ebfb7125ae4c1f943a59fdace') in 0.021574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Chair.fbx
+  artifactKey: Guid(5c35bda918f6bca4d84b9c2f8814862a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Chair.fbx using Guid(5c35bda918f6bca4d84b9c2f8814862a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e791a748e614934a5f48ce27ccc23957') in 0.023344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Models/Dashi_Top.fbx
+  artifactKey: Guid(00d921738f04cdb4a8374999addeb507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Models/Dashi_Top.fbx using Guid(00d921738f04cdb4a8374999addeb507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1e8dc1738bb14333bbfa5868362d70') in 0.054918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv10.fbx
+  artifactKey: Guid(3f764d53ee9a94737b691896e3e5d86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv10.fbx using Guid(3f764d53ee9a94737b691896e3e5d86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49474c2a17f8756750b2757272e4a001') in 0.016398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Food/Apple.fbx
+  artifactKey: Guid(7fcc56c1bc987d140b131d6ea2568432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Food/Apple.fbx using Guid(7fcc56c1bc987d140b131d6ea2568432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170e5f1280fa62409cb9bd35f6ebb0d7') in 0.021850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Mushroom.prefab
+  artifactKey: Guid(4e3bda333729fe84ea384e9f289b623e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Mushroom.prefab using Guid(4e3bda333729fe84ea384e9f289b623e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedac5bfd5a5d473581479b5a0c1cfbe') in 0.010587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Materials/mat_ChouchinWire.mat
+  artifactKey: Guid(bea4533c292ebfa4ba6d6b5d3a33b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Materials/mat_ChouchinWire.mat using Guid(bea4533c292ebfa4ba6d6b5d3a33b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c5aa434553589402d28deeef549d18') in 0.007375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Plants/Palm.prefab
+  artifactKey: Guid(ad0bf17dea771c049b0f132e252c2028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Plants/Palm.prefab using Guid(ad0bf17dea771c049b0f132e252c2028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923ab88e0f0e102a4a574d873db6fbd1') in 0.010289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Bowler.fbx
+  artifactKey: Guid(b57b7536330a95d48a5318230ad75c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Bowler.fbx using Guid(b57b7536330a95d48a5318230ad75c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7100e99084ba2368e01c1d9dc28424c') in 0.025930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv07.fbx
+  artifactKey: Guid(515e6ee1b223a4de9bbc185bc6788db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv07.fbx using Guid(515e6ee1b223a4de9bbc185bc6788db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6569943ceb1a33f16ff49f24d33ee026') in 0.017831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Bake.fbx
+  artifactKey: Guid(897637db6ded847468ce460a49f617a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Bake.fbx using Guid(897637db6ded847468ce460a49f617a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3d7f57cc304c7556b7d30c8f0f2bf5') in 0.025757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Weapons/Materials/1.mat
+  artifactKey: Guid(f1ffbef95d5684c468f4a8981020de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Weapons/Materials/1.mat using Guid(f1ffbef95d5684c468f4a8981020de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb654cbecc12432e802e42f86788a73') in 0.010511 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/GrassFlowers/Textures/GrassFlowers/grass02.tga
-  artifactKey: Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GrassFlowers/Textures/GrassFlowers/grass02.tga using Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadf484c1a21385d13e102307aa63eb2') in 0.011029 seconds
+  Time since last request: 0.000093 seconds.
+  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Sources/Billboards/Conifer Tall_BillboardMaterial.mat
+  artifactKey: Guid(cb64c4536ee5b445783c428f4a53af1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Sources/Billboards/Conifer Tall_BillboardMaterial.mat using Guid(cb64c4536ee5b445783c428f4a53af1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7496f3aac22748fec198d8c5a3618c') in 0.531529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Boat.fbx
+  artifactKey: Guid(27df262d658c86747b7508c9a3298508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Boat.fbx using Guid(27df262d658c86747b7508c9a3298508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb803c2d95dc0c65f6ae1555a7347b8') in 0.026684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Moduls/Floor.prefab
+  artifactKey: Guid(1aeee69441ed26e41ab00dbc3b2b688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Moduls/Floor.prefab using Guid(1aeee69441ed26e41ab00dbc3b2b688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3426b6c60a64d27321683b8195ae8b1d') in 0.009278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Moduls/Internal staircase.fbx
+  artifactKey: Guid(1ecff2d34f3c39445baba3d180f67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Moduls/Internal staircase.fbx using Guid(1ecff2d34f3c39445baba3d180f67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c139eb5260f307354b0915fdbbf3663b') in 0.024664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/4.mat
+  artifactKey: Guid(5151646d503c42369d2aeeb8359ca0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Materials/4.mat using Guid(5151646d503c42369d2aeeb8359ca0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9977c15202c0d39feecaafe5d5bd72') in 0.415791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Island/Materials/Island 1.mat
+  artifactKey: Guid(80024fb0caf74b5ebac71fc57f83a2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Island/Materials/Island 1.mat using Guid(80024fb0caf74b5ebac71fc57f83a2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff02d07f7ec2b409b39bdce8e0b1046') in 0.661275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Models/SD_QUERY_49_Ooita/Materials/lambert1.mat
+  artifactKey: Guid(ec5c321d2ab387040b20c94cee5558a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Models/SD_QUERY_49_Ooita/Materials/lambert1.mat using Guid(ec5c321d2ab387040b20c94cee5558a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e2c21ff48643a1a2b90b390379f764') in 0.007292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Materials/mat_dashi_BLACKver.mat
+  artifactKey: Guid(7572daef172f9f449a89238afb9c6dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Materials/mat_dashi_BLACKver.mat using Guid(7572daef172f9f449a89238afb9c6dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048358b137a130d5a1839e7be42746d9') in 0.012202 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.188200 seconds.
-  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower04.tga
-  artifactKey: Guid(5c744e80ad52c884c9ac4c9139b3aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower04.tga using Guid(5c744e80ad52c884c9ac4c9139b3aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f4fb85e7c9856ac5c8437f3b53c9cf') in 0.010748 seconds
+  Time since last request: 0.000090 seconds.
+  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Sources/Billboards/Conifer Small_BillboardMaterial.mat
+  artifactKey: Guid(fba25871281c3416cbb4faf8edfb3a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Sources/Billboards/Conifer Small_BillboardMaterial.mat using Guid(fba25871281c3416cbb4faf8edfb3a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0597550b20044c2f1eaa7576e8369a8d') in 0.016562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Materials/mat_screen_A.mat
+  artifactKey: Guid(42f0544f07f5c974981ee173056dcec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Materials/mat_screen_A.mat using Guid(42f0544f07f5c974981ee173056dcec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34627572cd49a906c5c0f1d84e19add') in 0.010362 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 12.984745 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer.terrainlayer
-  artifactKey: Guid(0121bda0be84742e3bfdb5434f708984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer.terrainlayer using Guid(0121bda0be84742e3bfdb5434f708984) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26c95dd2a600343b176e6c996b9bfc10') in 0.009721 seconds
+  Time since last request: 0.000114 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Materials/Background.mat
+  artifactKey: Guid(9c6ab09d56b934c5a9f0c43b472e0ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Materials/Background.mat using Guid(9c6ab09d56b934c5a9f0c43b472e0ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6208f6b8906e2a89dd043388ad9b61b5') in 0.010566 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 63.073924 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer 1.terrainlayer
-  artifactKey: Guid(8ae6d2bea828a4d73b50ecfde6b4c67e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer 1.terrainlayer using Guid(8ae6d2bea828a4d73b50ecfde6b4c67e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72862695d86d6301502038e1538ace44') in 0.006580 seconds
+  Time since last request: 0.000091 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Human/Prefabs/Dontakus_Female.prefab
+  artifactKey: Guid(dd0368f7be2d04af9a6522c348fa316c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Human/Prefabs/Dontakus_Female.prefab using Guid(dd0368f7be2d04af9a6522c348fa316c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6aa6e86fc7daf7c038119da2bb1831a') in 0.014428 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 25
 ========================================================================
 Received Import Request.
-  Time since last request: 51.447941 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer 2.terrainlayer
-  artifactKey: Guid(4140af312d4fd47c5a0613e6a597612f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer 2.terrainlayer using Guid(4140af312d4fd47c5a0613e6a597612f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b74769c91c0a24cf7c95185e052d7002') in 0.005459 seconds
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Barrel.fbx
+  artifactKey: Guid(a97170a187445d445b96537f2632cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Barrel.fbx using Guid(a97170a187445d445b96537f2632cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00b1112c39e6194436820ff6fe8faf4') in 0.025655 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 17.643479 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer 3.terrainlayer
-  artifactKey: Guid(7086da740ecb14f6a891b786a973fd7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer 3.terrainlayer using Guid(7086da740ecb14f6a891b786a973fd7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae65db126477008e8a9a5ff9602c9925') in 0.005896 seconds
+  Time since last request: 0.000088 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/01_Osaka/Takoyaki/Models/enemy.fbx
+  artifactKey: Guid(7ab1a40e9e276e642b9df96ae60f6453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/01_Osaka/Takoyaki/Models/enemy.fbx using Guid(7ab1a40e9e276e642b9df96ae60f6453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13031f6eb0a4619019b16d4f56fcbd97') in 0.024907 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 13.869751 seconds.
-  path: Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer 4.terrainlayer
-  artifactKey: Guid(e1a09689bfcd547febb8c1d8ac21b485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TerrainTexturesPackFree/TerrainTextures/NewLayer 4.terrainlayer using Guid(e1a09689bfcd547febb8c1d8ac21b485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '767e55d8ae9b6ce26c7f8edcabb417b3') in 0.004842 seconds
+  Time since last request: 0.000069 seconds.
+  path: Assets/Level 1 Monster Pack/Materials/Bat/Bat_Green.mat
+  artifactKey: Guid(1945ca08888585540b2dbfd8b76f2b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Monster Pack/Materials/Bat/Bat_Green.mat using Guid(1945ca08888585540b2dbfd8b76f2b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e18454957c7dacb324206c7e01d23ac') in 0.013743 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.642 seconds
-Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.155 seconds
-Domain Reload Profiling: 1797ms
-	BeginReloadAssembly (216ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (380ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1156ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (607ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (477ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3169 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (380.2 KB). Loaded Objects now: 3696.
-Memory consumption went from 181.0 MB to 180.6 MB.
-Total: 4.711165 ms (FindLiveObjects: 0.318887 ms CreateObjectMapping: 0.280108 ms MarkObjects: 3.898788 ms  DeleteObjects: 0.212511 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.640 seconds
-Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.187 seconds
-Domain Reload Profiling: 1828ms
-	BeginReloadAssembly (210ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (309ms)
-		LoadAssemblies (381ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1187ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (628ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (495ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (360.7 KB). Loaded Objects now: 3699.
-Memory consumption went from 186.3 MB to 185.9 MB.
-Total: 4.354231 ms (FindLiveObjects: 0.295215 ms CreateObjectMapping: 0.232630 ms MarkObjects: 3.670029 ms  DeleteObjects: 0.155291 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.616 seconds
-Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.146 seconds
-Domain Reload Profiling: 1763ms
-	BeginReloadAssembly (205ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (292ms)
-		LoadAssemblies (362ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1147ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (608ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (473ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (360.7 KB). Loaded Objects now: 3702.
-Memory consumption went from 191.4 MB to 191.1 MB.
-Total: 4.587030 ms (FindLiveObjects: 0.347791 ms CreateObjectMapping: 0.272623 ms MarkObjects: 3.799607 ms  DeleteObjects: 0.165927 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 379.846614 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Flag/Models/Flag.fbx
-  artifactKey: Guid(6767b4a71c004723b61cf1c813fe0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Flag/Models/Flag.fbx using Guid(6767b4a71c004723b61cf1c813fe0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d40930745b85f4a8c4362162670d8a') in 0.919801 seconds
+  Time since last request: 0.000067 seconds.
+  path: Assets/Level 1 Monster Pack/Materials/Ghost/Ghost_White.mat
+  artifactKey: Guid(e45b40dde5630f3488fd950d7ca4f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Monster Pack/Materials/Ghost/Ghost_White.mat using Guid(e45b40dde5630f3488fd950d7ca4f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06d92983ff19ccfa7a8d10973c013dd') in 0.017757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv08.fbx
+  artifactKey: Guid(58af467caf2704d889d0543b79bb76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv08.fbx using Guid(58af467caf2704d889d0543b79bb76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88399d00772e31ef5f27442731f7bccc') in 0.016845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plants/Grass.fbx
+  artifactKey: Guid(d015627f400b6694981d97a6290fb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plants/Grass.fbx using Guid(d015627f400b6694981d97a6290fb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dffcad67abcfd3defdd4a6674460109') in 0.021733 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000078 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab
-  artifactKey: Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab using Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73047bd7c655dfe66d483f2f13e976dc') in 3.234714 seconds
+  path: Assets/mode/Materials/01 - Default.mat
+  artifactKey: Guid(654d6328ff989442b82d8097aad65aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mode/Materials/01 - Default.mat using Guid(654d6328ff989442b82d8097aad65aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e6d3400b5b4e2888bad66b79f8a76e') in 0.007030 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Models/Lighthouse.fbx
-  artifactKey: Guid(c5a48421b9b94cd0bc89db4379a3dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Models/Lighthouse.fbx using Guid(c5a48421b9b94cd0bc89db4379a3dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e68371f9a84f01566edff132890f46') in 0.103605 seconds
+  Time since last request: 0.000141 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plants/Bush 1.fbx
+  artifactKey: Guid(f5437a65434aba344ba765620b5a667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plants/Bush 1.fbx using Guid(f5437a65434aba344ba765620b5a667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d83b239ba11ef0506c196cd8aa58f5') in 0.021701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Flag/Materials/Flag 0.mat
+  artifactKey: Guid(ea3d97bab21448d481095e153c0bc087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Flag/Materials/Flag 0.mat using Guid(ea3d97bab21448d481095e153c0bc087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3061716cdb7f556cafbf9228ca61fa4') in 0.009852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/Materials/Clouds 2.mat
+  artifactKey: Guid(dd7a414e67514f87a6c4d69b61222857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/Materials/Clouds 2.mat using Guid(dd7a414e67514f87a6c4d69b61222857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8ab2b15b7b2c161b377ba7bc6c53c6') in 0.131939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Bed.fbx
+  artifactKey: Guid(ea599db7ae265df43ba9efd8500ddaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Bed.fbx using Guid(ea599db7ae265df43ba9efd8500ddaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0030ba600638f8c425e7ff50eff2c181') in 0.025783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Bucket.fbx
+  artifactKey: Guid(e16e33e25321cbd4bb41e326264f680f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Bucket.fbx using Guid(e16e33e25321cbd4bb41e326264f680f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47359f6748ba9599b58af4504286100') in 0.025777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Level 1 Monster Pack/Prefabs/Bat/Bat_Green.prefab
+  artifactKey: Guid(d82532fc4fd80bf4097d29efd331a0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Monster Pack/Prefabs/Bat/Bat_Green.prefab using Guid(d82532fc4fd80bf4097d29efd331a0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d59668c0a9765ef3a5f741e927294a') in 0.016137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Instruments/Shovel.fbx
+  artifactKey: Guid(fb6f15807b685ec418a1cb93e54a9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Instruments/Shovel.fbx using Guid(fb6f15807b685ec418a1cb93e54a9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6966905659ae50413dcc57e4ebd2af00') in 0.025761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv04.fbx
+  artifactKey: Guid(3b0ee283245f040f083a9ed4762dcd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/03_Hokkaido/QueryCatsle/Models/Catsle_Lv04.fbx using Guid(3b0ee283245f040f083a9ed4762dcd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ea4e755b5d786fd319a6fcb72f49dd') in 0.018767 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Medium BOTD.prefab
-  artifactKey: Guid(abdd95d0229d64588b03d2806d9cc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Medium BOTD.prefab using Guid(abdd95d0229d64588b03d2806d9cc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdb1c8cd3e530382008ea6034e3dfab') in 0.202448 seconds
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/VFX/Fire.prefab
+  artifactKey: Guid(2791b0cf5de68b44ab3298fb22a21fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/VFX/Fire.prefab using Guid(2791b0cf5de68b44ab3298fb22a21fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8530a536eb66172a35d76278bf3acb7') in 0.018903 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Bare BOTD.prefab
-  artifactKey: Guid(539fa9bc6500e44708e0f7b2c78cbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Bare BOTD.prefab using Guid(539fa9bc6500e44708e0f7b2c78cbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3db807f0bb54328e930026ce19ef5c4') in 1.522809 seconds
+  Time since last request: 0.000104 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/99_ShowTime/Prefabs/DetectPanel.prefab
+  artifactKey: Guid(c3593342104054e4a976f9076d317cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/99_ShowTime/Prefabs/DetectPanel.prefab using Guid(c3593342104054e4a976f9076d317cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ca196be4734066634a9b9038d22043') in 0.003498 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 5.755654 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/PF CTI Windzone.prefab
-  artifactKey: Guid(eaf383cb55cf38f448529df28e28abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/PF CTI Windzone.prefab using Guid(eaf383cb55cf38f448529df28e28abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3323fa336c827d1cf7d2026f1a6e6fba') in 0.005143 seconds
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Food/Mushroom_1.fbx
+  artifactKey: Guid(a7be1a7335336e84f9e330a3b398a03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Food/Mushroom_1.fbx using Guid(a7be1a7335336e84f9e330a3b398a03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1ace1fef3033a7528b4241f0887e4b') in 0.027460 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Prefabs/Dashi_Dontaku_ver.prefab
+  artifactKey: Guid(e2e2fbdb1850db7409de68d99f235a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Dashi/Prefabs/Dashi_Dontaku_ver.prefab using Guid(e2e2fbdb1850db7409de68d99f235a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9453d7e2b2df108bb918eeab556f8270') in 0.018213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Level 1 Monster Pack/Materials/Bat/Bat_Yellow.mat
+  artifactKey: Guid(1b23dc953f3a9474490b7b8cfcdf896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 1 Monster Pack/Materials/Bat/Bat_Yellow.mat using Guid(1b23dc953f3a9474490b7b8cfcdf896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2186de2b4a11e9efcada3dd02d3e06') in 0.014544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plants/Grass_1.fbx
+  artifactKey: Guid(9aef9122d28513d4baefc1a26adb78f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plants/Grass_1.fbx using Guid(9aef9122d28513d4baefc1a26adb78f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d4ef450305884a5c62066506d7b89a') in 0.026049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Food/Mushroom.fbx
+  artifactKey: Guid(4b1afdfd371d8e840928668bfb90ec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Food/Mushroom.fbx using Guid(4b1afdfd371d8e840928668bfb90ec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a7f43c2de857e19ed530a5397cae25') in 0.024301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plants/Flower.fbx
+  artifactKey: Guid(1832a81c83e2f8f488699a8ab6237703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plants/Flower.fbx using Guid(1832a81c83e2f8f488699a8ab6237703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b66cc43d2748e274d0246eeb24890c') in 0.023435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Instruments/Ax Stone.prefab
+  artifactKey: Guid(0169672840b1dde468fe8324a76ce492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Instruments/Ax Stone.prefab using Guid(0169672840b1dde468fe8324a76ce492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262684375ccfcb556d7c3ff6c2218af6') in 0.010303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Plants/Bush_1.prefab
+  artifactKey: Guid(09fe9cce9bc547f46a74060f49bfe78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Plants/Bush_1.prefab using Guid(09fe9cce9bc547f46a74060f49bfe78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7687b57e92574d74b03ff6d7b3ca78a') in 0.011151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Models/Chouchin_A.fbx
+  artifactKey: Guid(bd68865e08e2f9a4db9194f30646f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Models/Chouchin_A.fbx using Guid(bd68865e08e2f9a4db9194f30646f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64631e4b42c49e14891038e3d54142d6') in 0.017132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Food/Bread.fbx
+  artifactKey: Guid(83ca96011da87b747b8bcf4798c52102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Food/Bread.fbx using Guid(83ca96011da87b747b8bcf4798c52102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37151fb966b6f83d3ef6cf17b427485e') in 0.021126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Log.fbx
+  artifactKey: Guid(2db629b639f248d4395dd2ea657d835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Log.fbx using Guid(2db629b639f248d4395dd2ea657d835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a2581666d5d7817caf398eeab15fe4') in 0.021688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Canned food_Green.prefab
+  artifactKey: Guid(788a22c20be421c4b8efc4354c1da0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Canned food_Green.prefab using Guid(788a22c20be421c4b8efc4354c1da0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669d2920c10d39ea3dc564209d9c6076') in 0.009833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Instruments/Knife stone.prefab
+  artifactKey: Guid(1f3c20bf41104034d92e2a7ddaf3d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Instruments/Knife stone.prefab using Guid(1f3c20bf41104034d92e2a7ddaf3d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbedb33e71a9b1fd765204f32fa3875') in 0.009402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Instruments/Ax Stone.fbx
+  artifactKey: Guid(2693c744a015225458c286e2fbe26d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Instruments/Ax Stone.fbx using Guid(2693c744a015225458c286e2fbe26d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56c8f2f62d7b0e4cd0cc356433515b9') in 0.023310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Box_2.fbx
+  artifactKey: Guid(b386b76ba5c54d64ea46c7bdcbc9f96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Box_2.fbx using Guid(b386b76ba5c54d64ea46c7bdcbc9f96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b857b89970321632f68bd992a52330') in 0.025593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Instruments/Metal ax.prefab
+  artifactKey: Guid(cd967efc2f541224eac5ac2047968c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Instruments/Metal ax.prefab using Guid(cd967efc2f541224eac5ac2047968c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80c5addfc37960ef368139c950f34cf') in 0.011061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Instruments/Metal ax.fbx
+  artifactKey: Guid(ac91476d644068046952190b5686b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Instruments/Metal ax.fbx using Guid(ac91476d644068046952190b5686b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9912254967829fd3b3a51357696c21d4') in 0.022242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Mushroom_1.prefab
+  artifactKey: Guid(75cf081ee4bb4be45b9d65b006a5a90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Food/Mushroom_1.prefab using Guid(75cf081ee4bb4be45b9d65b006a5a90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4291c34358348e1fa52c3b0e5fd907c') in 0.009898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Prefabs/Moduls/Beam.prefab
+  artifactKey: Guid(0a71acc12832b7141a3a778c5c48a67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Prefabs/Moduls/Beam.prefab using Guid(0a71acc12832b7141a3a778c5c48a67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31a1393dff22bf40faa855093d1ed23') in 0.009148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Materials/mat_chouchin.mat
+  artifactKey: Guid(9cf6d4006ff1acf43ba1ac439ef6e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Chouchin/Materials/mat_chouchin.mat using Guid(9cf6d4006ff1acf43ba1ac439ef6e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19884c6ec529bf4b91fed42a8567c8ed') in 0.009554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Human/Materials/mat_man_Female.mat
+  artifactKey: Guid(9a5b4783de5557648b9d7f45e9a8edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PQAssets/Query-Chan-SD/Props/02_Fukuoka/Human/Materials/mat_man_Female.mat using Guid(9a5b4783de5557648b9d7f45e9a8edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e4de805b629dc69abd525d8ab2482c') in 0.010227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plants/Cactus.fbx
+  artifactKey: Guid(b7358c0db33686f4b9007a65691d1b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plants/Cactus.fbx using Guid(b7358c0db33686f4b9007a65691d1b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edde21f0b3d2560b9c83508b7c85386') in 0.021135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 100.625609 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Materials/VFX.mat
+  artifactKey: Guid(2f0c87fc4007df248ab1366a29e42559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Materials/VFX.mat using Guid(2f0c87fc4007df248ab1366a29e42559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7a9d7a40d105e191a0f007ba95d7ed') in 0.034402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.034215 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Plate.fbx
+  artifactKey: Guid(facaa2e459df4b84ca6f8b46d8b90f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Plate.fbx using Guid(facaa2e459df4b84ca6f8b46d8b90f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1944ee935a531dc63b8324a5ad7fc21') in 0.022704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Staircase.fbx
+  artifactKey: Guid(990f5f91016c98a4bbb495b01b3cd328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Staircase.fbx using Guid(990f5f91016c98a4bbb495b01b3cd328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c42d8994a161d363ea488979325574') in 0.030658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Stump.fbx
+  artifactKey: Guid(015c964e36159d64c88a2bf91972d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Stump.fbx using Guid(015c964e36159d64c88a2bf91972d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac70c269937a1d9c478a75cee5048081') in 0.033657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Trap.fbx
+  artifactKey: Guid(960635a0b8a27d8419996923eee03cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Trap.fbx using Guid(960635a0b8a27d8419996923eee03cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef386f71cd1b721dcb0165749ca56e3') in 0.023161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Tent.fbx
+  artifactKey: Guid(d50e1716f4409734fbbe85f9cd2168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Tent.fbx using Guid(d50e1716f4409734fbbe85f9cd2168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2545c036cf8b047149554d279791f4b9') in 0.023188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Torch.fbx
+  artifactKey: Guid(c04884c3d11913d44948da727ec1b3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Torch.fbx using Guid(c04884c3d11913d44948da727ec1b3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b05714897e44776cd4ab2089fdf0bab') in 0.020860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Table.fbx
+  artifactKey: Guid(5b4e3f7007c905e41a487a9529a467eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Table.fbx using Guid(5b4e3f7007c905e41a487a9529a467eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bdbb9b674572b3b1fe7cb3e8920f8a') in 0.021781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Workbench.fbx
+  artifactKey: Guid(8c2922ce922c6b141b22239a4a75d19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Workbench.fbx using Guid(8c2922ce922c6b141b22239a4a75d19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62390485657d7fe3c72404ddfe153c61') in 0.022640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scenes/Low_Poly_Survival/Models/Terrain.fbx
+  artifactKey: Guid(21817218bc9ff6c4ab44e4c52cc4e824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Low_Poly_Survival/Models/Terrain.fbx using Guid(21817218bc9ff6c4ab44e4c52cc4e824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1350517c06e2abde2d6d62c8bb322e16') in 0.248329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 17.477836 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(918288c4717124a7eb71c506d23f4d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(918288c4717124a7eb71c506d23f4d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a0608ce42415bd54f94fe80f34a511') in 0.017632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
 AssetImportWorker is now disconnected from the server

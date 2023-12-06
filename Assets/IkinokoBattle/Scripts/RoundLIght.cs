@@ -9,6 +9,6 @@ public class RoundLIght : MonoBehaviour
     {   
         // deltataime: 前フレームからの経過時間（s）を取得
         // よって１秒間に12度移動
-        transform.Rotate(new Vector3(0, -12) * Time.deltaTime);
+        transform.Rotate(new Vector3(0, -2) * Time.deltaTime);
     }
 }
