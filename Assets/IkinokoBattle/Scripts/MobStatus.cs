@@ -25,6 +25,7 @@ public class MobStatus : MonoBehaviour{
     protected virtual void Start()
     {
         _life = lifeMax;
+        // mobstatusの子クラスであるenemystatusと同じところについてるanimatorなんでinchildren?
         _animator = GetComponentInChildren<Animator>();
     }
 

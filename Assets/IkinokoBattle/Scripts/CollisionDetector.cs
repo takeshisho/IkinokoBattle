@@ -6,6 +6,13 @@ using UnityEngine.Events;
 public class CollisionDetector : MonoBehaviour
 {
     [SerializeField] private TriggerEvent onTriggerStay = new TriggerEvent();
+    [SerializeField] private TriggerEvent onTriggerEnter = new TriggerEvent();
+
+    // Is TriggerがONで他のColliderが入ってきた時にこのメソッドがコールされる
+    private void OnTriggerEnter(Collider other)
+    {
+        onTriggerEnter.Invoke(other);
+    }
 
     // Is TriggerがONで他のColliderと重なっている時は、このメソッドがコールされる
     private void OnTriggerStay(Collider other)

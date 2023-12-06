@@ -24,12 +24,13 @@ public class MobAttack : MonoBehaviour
     {
         AttackIfPossible();
     }
-
+    // 攻撃の最初に呼ばれる
     public void OnAttackStart()
     {
         attackCollider.enabled = true;
     }
 
+    // 攻撃対象にヒットした時に呼ばれる。
     public void OnHitAttack(Collider collider)
     {
         // いまいちピンとこない

@@ -12,6 +12,7 @@ public class EnemyMove : MonoBehaviour
     // 見えないRayを放ち、Rayが衝突したObjectを取得する処理
     private RaycastHit[] _raycastHits = new RaycastHit[10];
     private EnemyStatus _status;
+    [SerializeField] private LayerMask raycastLayerMask;
 
     void Start()
     {
@@ -43,7 +44,8 @@ public class EnemyMove : MonoBehaviour
 
         // raycastHitsにヒットしたColliderや座標情報などが格納される。
         // RaycastAllと同じ機能を持つNonAllocだがメモリにゴミを残さない。
-        var hitCount = Physics.RaycastNonAlloc(transform.position, direction, _raycastHits, distance);
+        // 判定対象にするlayerをratcastLayerMaskで指定
+        var hitCount = Physics.RaycastNonAlloc(transform.position, direction, _raycastHits, distance, raycastLayerMask);
 
         Debug.Log("hitCount: " + hitCount);
 
