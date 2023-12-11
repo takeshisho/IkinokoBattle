@@ -65,6 +65,7 @@
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/TaaComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/UserLutComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/FogModel.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/LifeGaugeContainer.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/ItemButton.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="Assets/IkinokoBattle/Scripts/Spawner.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/Menu.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/ColorGradingModel.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/PostProcessingBehaviour.cs" />
@@ -102,8 +105,8 @@
     <Compile Include="Assets/IkinokoBattle/Scripts/MobStatus.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Scripts/TDControl.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" />
-    <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/GUIController/RotateProp.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
+    <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/GUIController/RotateProp.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/GUIController/GUIControllerSD.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/GUIController/CameraAction.cs" />
@@ -113,6 +116,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/PlayerController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/RecipeButton.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/EnemyStatus.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/MotionBlurModel.cs" />
@@ -143,6 +147,7 @@
     <Compile Include="Assets/IkinokoBattle/Scripts/PlayerStatus.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/GUIController/ShowTimeController.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/PostProcessingComponent.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/OwnedItemData.cs" />
     <Compile Include="Assets/Scenes/Low_Poly_Survival/Scripts/SimpleCameraController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/EnemyMove.cs" />
@@ -151,9 +156,11 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/ColorGradingComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/ItemsDialog.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/AntialiasingModel.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/LifeGauge.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/VignetteModel.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/QuerySDController/QuerySDMecanimController.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/MotionBlurComponent.cs" />
@@ -513,11 +520,11 @@
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>

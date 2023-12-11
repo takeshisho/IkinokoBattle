@@ -31,7 +31,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(_characterController.isGrounded ? "地上にいます" : "空中です");
 
         // デフォルトだとマウスの左クリック
         if (Input.GetButtonDown("Fire1"))
