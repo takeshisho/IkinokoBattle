@@ -41,7 +41,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Assembly-CSharp >= 1.0.0"
+      "Assembly-CSharp >= 1.0.0",
+      "Assembly-CSharp-firstpass >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -69,6 +70,9 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
+            "/Users/shoin/Unity/IkinokoBattle/Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "/Users/shoin/Unity/IkinokoBattle/Assembly-CSharp-firstpass.csproj"
+            },
             "/Users/shoin/Unity/IkinokoBattle/Assembly-CSharp.csproj": {
               "projectPath": "/Users/shoin/Unity/IkinokoBattle/Assembly-CSharp.csproj"
             }

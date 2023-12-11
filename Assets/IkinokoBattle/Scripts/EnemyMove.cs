@@ -44,10 +44,10 @@ public class EnemyMove : MonoBehaviour
 
         // raycastHitsにヒットしたColliderや座標情報などが格納される。
         // RaycastAllと同じ機能を持つNonAllocだがメモリにゴミを残さない。
-        // 判定対象にするlayerをratcastLayerMaskで指定
+        // 判定対象にするlayerをratcastLayerMaskで指定1
         var hitCount = Physics.RaycastNonAlloc(transform.position, direction, _raycastHits, distance, raycastLayerMask);
 
-        Debug.Log("hitCount: " + hitCount);
+        // Debug.Log("hitCount: " + hitCount);
 
         // このゲームのPlayerは、CharacterControllerを使用しており、Colliderではないので、countに含まれない
         // よって０の時は、playerとenemyとの間に障害物がないことを意味する。よって追尾する

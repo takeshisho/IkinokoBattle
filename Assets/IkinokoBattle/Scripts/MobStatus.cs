@@ -27,11 +27,12 @@ public class MobStatus : MonoBehaviour{
         _life = lifeMax;
         // mobstatusの子クラスであるenemystatusと同じところについてるanimatorなんでinchildren?
         _animator = GetComponentInChildren<Animator>();
+        LifeGaugeContainer.Instance.Add(this);
     }
 
     protected virtual void OnDie()
     {
-
+        LifeGaugeContainer.Instance.Remove(this);
     }
 
     public void Damage(int damage)
