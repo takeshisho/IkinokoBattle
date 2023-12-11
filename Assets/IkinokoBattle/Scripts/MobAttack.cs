@@ -7,6 +7,7 @@ public class MobAttack : MonoBehaviour
 {
     [SerializeField] private float attackCooldown = 0.5f;
     [SerializeField] private Collider attackCollider;
+    [SerializeField] private AudioSource swingSound;
 
     private MobStatus _status;
 
@@ -28,6 +29,13 @@ public class MobAttack : MonoBehaviour
     public void OnAttackStart()
     {
         attackCollider.enabled = true;
+
+        if(swingSound != null) 
+        {
+            // pitchは音の高さを変える
+            swingSound.pitch = Random.Range(0.7f, 1.3f);
+            swingSound.Play();
+        }
     }
 
     // 攻撃対象にヒットした時に呼ばれる。
