@@ -137,7 +137,6 @@
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/#NVJOB Assets/Dynamic Sky (For Demo)/DynamicSkyForDemo.cs" />
-    <Compile Include="Assets/IkinokoBattle/Scripts/RecipeButton1.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/GUIController/FaceToCamera.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Props/99_ShowTime/Scripts/DetectPanel.cs" />
@@ -166,6 +165,7 @@
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/AntialiasingModel.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/LifeGauge.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/VignetteModel.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/ThrowAxe.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/QuerySDController/QuerySDMecanimController.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/MotionBlurComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/FxaaComponent.cs" />
