@@ -38,7 +38,6 @@ public class MobltemDropper : MonoBehaviour
 
     private int RandomItemIndex()
     {
-        Debug.Log(itemPrefab.Length);
         return Random.Range(0, itemPrefab.Length);
     }
 }
