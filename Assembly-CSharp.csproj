@@ -72,9 +72,11 @@
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Attributes/MinAttribute.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/AudioManager.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/PostProcessingContext.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/CancelButton.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Attributes/GetSetAttribute.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/UserLutModel.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
@@ -145,6 +147,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/BloomModel.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/PlayerStatus.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/OKButton.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/GUIController/ShowTimeController.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/PostProcessingComponent.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/OwnedItemData.cs" />
@@ -162,12 +165,14 @@
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/AntialiasingModel.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/LifeGauge.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/VignetteModel.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/ThrowAxe.cs" />
     <Compile Include="Assets/PQAssets/Query-Chan-SD/Scripts/QuerySDController/QuerySDMecanimController.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/MotionBlurComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/FxaaComponent.cs" />
     <Compile Include="Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_CustomWind.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Models/DitheringModel.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/BloomComponent.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/RecipeDialog.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/GameOverTextAnimator.cs" />
     <Compile Include="Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_Utils.cs" />

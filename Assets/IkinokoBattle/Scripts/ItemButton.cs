@@ -3,16 +3,19 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Button))]
 public class ItemButton : MonoBehaviour
 {
     // OwnedItemは所持アイテムを表すプロパティ
+    // OwnedItemsData.OwnedItemは返り値の型　OwnedItemはプロパティ名
     public OwnedItemsData.OwnedItem OwnedItem 
     { 
         get {return _ownedItem;}
         set
         {
+            // valueはsetされた値を表す
             _ownedItem = value;
 
             // アイテムが割り当てられたかどうかでアイテム画像や所持個数の表示を切り替える
@@ -38,6 +41,10 @@ public class ItemButton : MonoBehaviour
     [SerializeField] private ItemTypeSpriteMap[] itemSprites;
     [SerializeField] private Image image;
     [SerializeField] private TMPro.TextMeshProUGUI number;
+    [SerializeField] private GameObject ThrowAxePrefab;
+    // キャラの左手を指定する予定
+    [SerializeField] private GameObject ThrowAxeSpawnPoint;
+    public UnityAction CreateAction;
 
     private Button _button;
     private OwnedItemsData.OwnedItem _ownedItem;
@@ -48,7 +55,16 @@ public class ItemButton : MonoBehaviour
     }
 
     private void OnClick() {
-        // ボタンを押した時の処理
+        // _ownedItemは、OwnedItemsData.csにあるクラス
+        // OwnedItemsDataクラスの子クラスである、OwnedItemクラスのプロパティTypeを呼び出している
+        // TODO: アイテムの出現場所を正しくする。
+        if(_ownedItem.Type == Item.ItemType.ThrowAxe) {
+            // 妥協して調整した出すようにした、、、。
+            Instantiate(ThrowAxePrefab, ThrowAxeSpawnPoint.transform.position + new Vector3(0.45f, 0.7f, 0), Quaternion.Euler(0, 0, 180));
+            _ownedItem.Use();
+            // action使用して、アイテム欄を更新する
+            CreateAction?.Invoke();
+        }
     }
 
     [Serializable]

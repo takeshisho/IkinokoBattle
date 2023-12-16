@@ -5,7 +5,7 @@ using UnityEngine;
 public class MobltemDropper : MonoBehaviour
 {
     [SerializeField][Range(0, 1)] private float dropRate = 0.1f;
-    [SerializeField] private Item itemPrefab;
+    [SerializeField] private Item[] itemPrefab;
     [SerializeField] private int number = 1; // アイテム出現個数
 
     private MobStatus _status;
@@ -30,8 +30,14 @@ public class MobltemDropper : MonoBehaviour
         // number個のアイテム出現
         for (var i = 0; i < number; i++)
         {
-            var item = Instantiate(itemPrefab, transform.position, Quaternion.identity);
+            
+            var item = Instantiate(itemPrefab[RandomItemIndex()], transform.position, Quaternion.identity);
             item.Initialize();
         }
+    }
+
+    private int RandomItemIndex()
+    {
+        return Random.Range(0, itemPrefab.Length);
     }
 }

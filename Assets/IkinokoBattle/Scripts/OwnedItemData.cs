@@ -4,9 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditorInternal.Profiling.Memory.Experimental;
 
-// 全体的に内容の理解ができていない。色々調べないとできない。
-// 自作ゲームの時にデータを保存する際にしっかり学習する。
-
 [Serializable]
 public class OwnedItemsData
 {

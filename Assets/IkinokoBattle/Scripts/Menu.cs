@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class Menu : MonoBehaviour
 {
     [SerializeField] private ItemsDialog itemDialog;
+    [SerializeField] private RecipeDialog recipeDialog;
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private Button pauseButton;
     [SerializeField] private Button resumeButton;
@@ -41,6 +42,6 @@ public class Menu : MonoBehaviour
 
     private void ToggleRecipeDialog()
     {
-        //   後で実装
+        recipeDialog.Toggle();
     }
 }

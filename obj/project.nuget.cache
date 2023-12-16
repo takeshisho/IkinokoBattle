@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wFD4U9l/PbKlrYfUvVMvU1wAQgm2C6EN0ZXCZdHXIDgA1Y2cn1yY47ZphWJM9PkRFOJ86hkJsUEF5jJYyzRLQ==",
+  "dgSpecHash": "PZJTmjbIylfvQQWf5jBReFk5BiURihuIoz2Gx//vLTSDM9kVdm/VgFa+5lQYH3Hi72OVaV0rYdr2HFQZIht9ow==",
   "success": true,
-  "projectFilePath": "/Users/shoin/Unity/IkinokoBattle/Assembly-CSharp-Editor.csproj",
+  "projectFilePath": "/Users/shoin/Unity/IkinokoBattle/Assembly-CSharp-firstpass.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,7 +1,10 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ItemsDialog : MonoBehaviour
 {
+    // 使用可能なアイテムの番号
+    private int availableItemNumber = 2;
     [SerializeField] private int buttonNumber = 15;
     [SerializeField] private ItemButton itemButton;
 
@@ -20,6 +23,9 @@ public class ItemsDialog : MonoBehaviour
 
         // 子要素のItemButtonを一括取得、保持しておく
         _itemButtons = GetComponentsInChildren<ItemButton>();
+        
+        // throwAxeのボタンを押した時の処理を登録
+        _itemButtons[availableItemNumber].CreateAction = ItemsDialogUpdate;
     }
 
     // アイテム欄を表示、非常時を切り替える
@@ -31,14 +37,20 @@ public class ItemsDialog : MonoBehaviour
 
         // この段階では、表示されている場合がactiveSelfはtrueになるので、表示されている場合のみ処理を行う
         if(gameObject.activeSelf) {
-            // 表示された場合はアイテム欄を更新する
-            for (var i = 0; i < buttonNumber; i++)
-            {
-                // 各アイテムボタンに所持アイテムをセットする
-                _itemButtons[i].OwnedItem = OwnedItemsData.Instance.OwnedItems.Length > i
-                    ? OwnedItemsData.Instance.OwnedItems[i]
-                    : null;
-            }
+            ItemsDialogUpdate();
         }
     }
+
+    public void ItemsDialogUpdate()
+    {
+        // アイテム欄を更新する
+        for (var i = 0; i < buttonNumber; i++)
+        {
+            // 各アイテムボタンに所持アイテムをセットする
+            _itemButtons[i].OwnedItem = OwnedItemsData.Instance.OwnedItems.Length > i
+                ? OwnedItemsData.Instance.OwnedItems[i]
+                : null;
+        }
+    }
+
 }

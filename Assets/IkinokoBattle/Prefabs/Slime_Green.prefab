@@ -500,6 +500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCooldown: 0.5
   attackCollider: {fileID: 0}
+  swingSound: {fileID: 0}
 --- !u!114 &-2084237522976606342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,7 +514,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropRate: 0.5
-  itemPrefab: {fileID: 7367091713976911736, guid: 15fa3e0d13be94758a8345c3e2ea4903, type: 3}
+  itemPrefab:
+  - {fileID: 7367091713976911736, guid: 15fa3e0d13be94758a8345c3e2ea4903, type: 3}
+  - {fileID: 5048897452671543300, guid: 9ceec6bc98c04405d9808bab22134987, type: 3}
   number: 10
 --- !u!1 &6535678964117585438
 GameObject:
@@ -715,7 +718,7 @@ GameObject:
   - component: {fileID: 6882951800737875169}
   - component: {fileID: 5614970798846128034}
   - component: {fileID: 5140952455286995907}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: CollisionDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
