@@ -7,11 +7,10 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class ThrowAxe : MonoBehaviour
 {
-    // 理想のしよう
+    // 理想の仕様　未完成部分
     // アイテムを持った段階でplayerの動きを止める
     // 一定距離進んだら消える
-    // 途中で敵に当たったら消える、かつダメージを与える
-    // 途中で壁に当たったら消える
+
     private const int THROW_AXE_DAMAGE = 3;
     private Rigidbody rb;
     bool isThrown = false;
