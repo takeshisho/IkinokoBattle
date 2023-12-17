@@ -82,6 +82,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/MobAttack.cs" />
     <Compile Include="Assets/IkinokoBattle/Scripts/RoundLIght.cs" />
+    <Compile Include="Assets/IkinokoBattle/Scripts/Score.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/GrainComponent.cs" />
     <Compile Include="Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Runtime/Components/DitheringComponent.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />

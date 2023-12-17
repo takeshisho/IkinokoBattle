@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class EnemyStatus : MobStatus
 {
     private NavMeshAgent _agent;
-
     // スーパークラスのメソッドを上書きすることで、同じ名前のメソッドでも異なる動きをさせることが出来る
     protected override void Start()
     {
@@ -23,12 +22,14 @@ public class EnemyStatus : MobStatus
     protected override void OnDie()
     {
         base.OnDie();
+        // ScoreクラスのInstanceプロパティを使って、Scoreクラスの唯一の(シングルトンだから)インスタンスを取得する
+        Score.Instance.AddScore();
         StartCoroutine(DestroyCoroutine());
     }
 
     private IEnumerator DestroyCoroutine()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1.5f);
         // このスクリプトがついているgameobject自身
         Destroy(gameObject);
     }
