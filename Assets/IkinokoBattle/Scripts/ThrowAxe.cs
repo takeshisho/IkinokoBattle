@@ -14,6 +14,7 @@ public class ThrowAxe : MonoBehaviour
     private const int THROW_AXE_DAMAGE = 3;
     private Rigidbody rb;
     bool isThrown = false;
+    bool itemclose = false;
     private EnemyStatus HittedEnemyStatus;
 
     void Start()
@@ -30,6 +31,7 @@ public class ThrowAxe : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
+            if (!itemclose) { itemclose = true; return; }
             isThrown = true;
 
             // キャラの向いている方向に投げる

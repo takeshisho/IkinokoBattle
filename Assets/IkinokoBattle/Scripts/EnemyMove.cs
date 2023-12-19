@@ -20,12 +20,6 @@ public class EnemyMove : MonoBehaviour
         _status = GetComponent<EnemyStatus>();
     }
 
-    // void Update()
-    // {
-    //     // player目指して進む
-    //     _agent.destination = _playerController.transform.position;        
-    // }
-
     public void OnDetectObject(Collider collider)
     {
         if(!_status.IsMovable)

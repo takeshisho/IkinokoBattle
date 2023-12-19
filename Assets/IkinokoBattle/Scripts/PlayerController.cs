@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
+ 
         // デフォルトだとマウスの左クリック
         if (Input.GetButtonDown("Fire1"))
         {
